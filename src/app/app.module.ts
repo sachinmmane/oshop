@@ -1,3 +1,4 @@
+import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
 import { environment } from './../environments/environment';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -9,7 +10,8 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BsNavbarComponent
   ],
   imports: [
     BrowserModule,
